@@ -1,0 +1,28 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Twitch PubSub Example</title>
+    <link href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css" rel="stylesheet">
+    <link href="styles.css" rel="stylesheet">
+</head>
+<body>
+    <div class="container">
+        <div class="text-center">
+            <h1 class="mt-5">Twitch PubSub Example</h1>
+            <button id="login-button" class="btn btn-twitch mt-3">Login with Twitch</button>
+            <button id="logout-button" class="btn btn-danger mt-3" style="display: none;">Logout</button>
+            <div id="status" class="mt-3"></div>
+            <ul id="event-list" class="list-group"></ul>
+        </div>
+    </div>
+    <div id="login-overlay" class="d-flex">
+        <div>Successfully logged in!</div>
+    </div>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.16.0/umd/popper.min.js"></script>
+    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/js/bootstrap.min.js"></script>
+    <script src="scripts.js"></script>
+</body>
+</html>
